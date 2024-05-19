@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(92, 199, 90);
+}
+
+header{
+    background-image:linear-gradient(SeaGreen,MediumSeaGreen);
+    background-color: rgb(63, 175, 61);
+    width: 700px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.link-header{
+    text-decoration: none;
+    color:MidnightBlue ;
+    font-size: 40px;
+    padding: 10px;
+    margin: 60px;
+}
+
+h1{
+   background-color:rgb(63, 175, 61);
+    padding: 10px;
+    color: rgb(2, 74, 2);
+}
+
+.link-nav{
+      flex-wrap: wrap;
+    border: 5px solid green;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top:50px ;
+    padding: 3px;
+    background-color: rgb(33, 197, 47);
+   text-decoration: none;
+   color: green;
+}
+
+.link-nav:hover{
+    box-shadow: 5px 5px 10px rgb(24, 81, 47);
+    border: 5px solid rgb(41, 124, 41) ;
+    background-color: SeaGreen;
+    color: rgb(40, 103, 35);
+    transition:1s linear;
+}
+
+li{
+    font-size: 27px;
+    color: darkgreen;
+    padding: 5px;
+    
+}
+
+.link-nav:focus{
+    box-shadow:inset 0 5px 0 5px rgb(24, 81, 47);
+    color: darkgreen;
+    top: 10px;
+}
+
+
+.pon{
+    border: 20px double green;
+    margin: 9px;
+}
+
+.poon{
+    border: 20px double green;
+}
+
+
+.kartinka{
+    border: 15px double SeaGreen;
+    padding: 2px;
+    margin: 5px;
+    float: left;
+}
+
