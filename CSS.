@@ -76,3 +76,23 @@ li{
     float: left;
 }
 
+
+.social{
+    border: 10px solid lightblue;
+    background-color: lightblue;
+    display: flex;
+    float: left;
+    border-radius:30px ;
+    text-decoration:none ;
+    color: blue;
+     padding: 5px;
+}
+
+.social:hover{
+     border: 10px solid rgb(110, 110, 177); 
+     transition: 1s linear;
+     background-color: rgb(173, 162, 248);
+     color: rgb(72, 72, 170);
+    
+}
+
